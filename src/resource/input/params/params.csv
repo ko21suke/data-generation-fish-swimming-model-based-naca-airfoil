@@ -1,0 +1,4 @@
+sea_blue,sea_green,sea_red,fish_blue,fish_green,fish_red,fish_angle,img_width,img_height,fish_length,head_x,head_y,thickness_ratio,num_fps,frames,has_noise,num_noise,variation_angle,deformation_period_sec,head_magnification_right,head_magnification_left,tail_magnification_right,tail_magnification_left,state
+162,134,116,158,142,151,0,1920,1080,640,1280,540,0.14,60,300,1,10000,0,1,1,1,1,1,healthy
+162,134,116,158,142,151,0,1920,1080,640,1280,540,0.14,60,300,1,10000,0,1,0.6,0.6,0.6,0.6,sick group A
+162,134,116,158,142,151,0,1920,1080,640,1280,540,0.14,60,300,1,10000,0,1,1,1,0.6,0.6,sick group B
