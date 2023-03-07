@@ -189,7 +189,7 @@ def main():
     header = get_header()
     csv_writer = csv.DictWriter(info_file, fieldnames=header)
     csv_writer.writeheader()
-    params_paths = Path(PARAMS_DIR_PATH).glob(f'params*{EXTENSION_CSV}')
+    params_paths = Path(PARAMS_DIR_PATH).glob(f'*{EXTENSION_CSV}')
     for path in params_paths:
         csv_file = open(str(path), mode='r', encoding='utf-8')
         csv_reader = csv.DictReader(csv_file)
